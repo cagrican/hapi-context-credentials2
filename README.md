@@ -4,7 +4,7 @@ hapi.js plugin - Include `request.auth.credentials2` in default view context, if
 
 ##Notes
 This plugin only supports Hapi version 17 and above. 
-If you are using hapijs prior to version 17, please install `request.auth.credential`
+If you are using hapijs prior to version 17, please install `hapi-context-credentials`
 
 ##Install
 
