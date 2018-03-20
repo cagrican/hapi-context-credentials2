@@ -1,0 +1,23 @@
+{
+  "name": "hapi-context-credentials2",
+  "version": "1.0.0",
+  "description": "Include `request.auth.credentials2` in template view context",
+  "main": "index.js",
+  "author": "Cagri Can Bozkurt",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "test-cov-html": "lab -a code -r html -o coverage.html"
+  },
+  "peerDependencies": {
+    "hapi": ">=17.x.x"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "handlebars": "^4.0.11",
+    "hapi": "17.2.3",
+    "hapi-auth-basic": "^5.0.0",
+    "lab": "^15.4.0",
+    "vision": "^5.3.2"
+  }
+}
